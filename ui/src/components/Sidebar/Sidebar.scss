@@ -1,0 +1,35 @@
+.Sidebar__container {
+  .menu-btn {
+    width: 100%;
+    border-radius: 0;
+    background-color: var(--primary-color);
+    height: 63px;
+    justify-content: start;
+    img {
+      height: 24px;
+      width: 24px;
+      margin-right: 7px;
+    }
+  }
+}
+.drawer-content {
+  max-width: 256px !important;
+  .drawer-header {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding-left: 30px;
+    font-size: var(--chakra-fontSizes-md);
+    height: 63px;
+    display: flex;
+    align-items: center;
+  }
+}
+.Sidebar__icon {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+.drawer-list {
+  display: flex;
+  align-items: center;
+}

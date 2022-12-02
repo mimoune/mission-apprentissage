@@ -1,0 +1,32 @@
+.Header__container {
+  width: 100%;
+  height: 63px;
+  position: relative;
+  .Header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 63px;
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    z-index: 1399;
+    padding-left: 41px;
+    button {
+      height: 100%;
+      width: 185px;
+      border-radius: 0;
+      border: 0;
+      background-color: var(--primary-color);
+      color: var(--white-color);
+      justify-content: start;
+      padding: 0 18px;
+      cursor: pointer;
+      img {
+        height: 24px;
+        width: 24px;
+        margin-right: 5px;
+      }
+    }
+  }
+}

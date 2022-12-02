@@ -1,0 +1,18 @@
+version: "3"
+services:
+  server-service:
+    image: laazyry2/server-image
+    build:
+      context: server
+    ports:
+      - "4000:4000"
+    env_file:
+      - server/.env
+  ui-service:
+    build:
+      context: ui
+    image: laazyry2/ui-image
+    ports:
+      - "8080:80"
+    env_file:
+      - ui/.env
